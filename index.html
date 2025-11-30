@@ -14,7 +14,7 @@
   <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr style="padding:0px">
       <td style="padding:0px">
-        <i>Last update: 09/2025</i>
+        <i>Last update: 12/2025</i>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr style="padding:0px">
             <td style="padding:2.5%;width:63%;vertical-align:middle">
@@ -25,8 +25,7 @@
                 I am a final year Computer Science Ph.D. candidate at <a href="https://scai.engineering.asu.edu/">School of Computing and Augmented Intelligence</a> at <a href="https://www.asu.edu/">Arizona State University</a> advisored by Dr. Heewook Lee. My research interests lie at the fascinating crossroads of computational biology and large language models, with a particular emphasis on the field of cost-effective T cell immunotherapy.
               </p>
               <p>
-                My work seeks to shed light on two key areas: first, developing computational strategies for accurate prediction of the binding affinity between T cell receptors (TCRs) and epitope sequences presented on abnormal cells; second, designing/generating TCR sequences tailored for personalized immunotherapy. This field holds the potential to substantially expedite and reduce the cost of wet-lab experiments, paving the way for solutions to a wide array of diseases. 
-                <span style="color:red;"><strong>Actively seeking Research Scientist or Postdoctoral positions in machine learning and computational biology starting in early 2026.</strong></span>
+                My work seeks to shed light on two key areas: first, developing computational strategies for accurate prediction of the binding affinity between T cell receptors (TCRs) and epitope sequences presented on abnormal cells; second, designing/generating TCR sequences tailored for personalized immunotherapy. This field holds the potential to substantially expedite and reduce the cost of wet-lab experiments, paving the way for solutions to a wide array of diseases. <span style="color:red;">Actively seeking Research Scientist or Postdoctoral positions in machine learning and computational biology starting in early 2026.</span>
               </p>
               <p style="text-align:center">
                 <a href="mailto:pzhang84@asu.edu">Email</a> &nbsp/&nbsp
@@ -50,6 +49,7 @@
               <heading>Research</heading>
               <p>
                 <!-- I'm interested in computer vision, machine learning, optimization, and image processing. Much of my research is about inferring the physical world (shape, motion, color, light, etc) from images.  -->
+                I study how to improve <strong>conditional sequence generation</strong> using self-contemplating <strong>prompts design</strong>, <strong>hallucination-driven reward model refinement</strong>, and modular strategies that <strong>mitigate reward hacking</strong>. I also explore <strong>representation learning</strong> and <strong>active learning</strong> to enhance model efficiency and robustness.
                 Representative papers are <span class="highlight">highlighted</span>.
               </p>
             </td>
@@ -58,6 +58,33 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 				
     
+    <tr bgcolor="#ffffd0">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <img src="images/tcr-reward-design.png" width="160">
+        </div>
+      </td>
+
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <papertitle>Mitigating Goodhart’s Law in Epitope-Conditioned TCR Generation Using Plug-and-Play Reward Designs</papertitle>
+        <br>
+        <strong>Pengfei Zhang</strong>, Fredo Guan, Xiaoyi He, Hao Mei, Gloria Grama, Seojin Bang, Heewook Lee
+        <br>
+        <span style="color:red;"><em>RECOMB</em> (Research in Computational Molecular Biology), Under Review 2026</span>
+        <br>
+        <a href="#" onclick="return false;">paper (coming soon)</a> /
+        <a href="https://github.com/Lee-CBG/TCRRobustRewardDesign" target="_blank" rel="noopener noreferrer">github</a>
+        <p></p>
+        <p>
+          A modular reward-design framework that mitigates reward hacking and Goodhart-style failures in reinforcement learning. 
+          We combine reward smoothing, ensemble predictors, max-margin objectives, and contrastive alignment to stabilize training and 
+          preserve authenticity in sequence generation. Demonstrated through large-scale generative modeling experiments on biological sequence data.
+        </p>
+      </td>
+    </tr>
+
+
+
     <tr bgcolor="#ffffd0">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
